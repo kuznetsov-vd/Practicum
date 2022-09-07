@@ -1,4 +1,8 @@
-print('hello, world')
-list = [1, 2, 3, 4, 5]
-for i in list:
-    print(i)
+
+Class Calculator:
+    def __init__(self, limit):
+        self.__limit = limit
+
+
+Class CaloriesCalculator(Calculator):
+    Calculator.__init__(self, limit)
